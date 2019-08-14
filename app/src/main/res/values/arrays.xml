@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operator">
+        <item>中国移动</item>
+        <item>中国联通 </item>
+        <item>中国电信</item>
+        <item>未知运营商</item>
+    </string-array>
+
+    <string-array name="cellcode">
+        <item>B1</item>
+        <item>B3</item>
+        <item>B38</item>
+        <item>B39</item>
+        <item>B40</item>
+    </string-array>
+
+    <string-array name="syncmode">
+        <item>混合</item>
+        <item>gps</item>
+        <item>空口</item>
+    </string-array>
+    <string-array name="usertype">
+        <item>侦码</item>
+        <item>定位</item>
+        <item>guest</item>
+    </string-array>
+
+    <string-array name="tick_below_text_length_6">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+
+</resources>

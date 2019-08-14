@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lte.ui.widget.TitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:id="@+id/titlebar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorPrimary"
+                                    android:elevation="1dp"
+                                    app:leftIcon="@mipmap/ic_back"
+                                    app:leftText="@string/back"
+                                    app:actionTintColor="@color/bg_tint_white_gray_sel"/>

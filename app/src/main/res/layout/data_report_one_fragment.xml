@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30.0dip"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        >
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/attribuation"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:text="@string/xuhao" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/imsi1"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="@string/imsi" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/imei1"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:text="@string/imei" />
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:text="@string/mobile"/>
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/timestamp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/time" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/count"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:text="@string/bbu" />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/attribution"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="@string/attribuation"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/number"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="@string/operator"
+            />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imsi_list"
+        android:descendantFocusability="blocksDescendants"/>
+    </LinearLayout>
+</HorizontalScrollView>
+
+    <!--<com.cleveroad.adaptivetablelayout.AdaptiveTableLayout-->
+        <!--android:id="@+id/tableLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/search_btn"-->
+        <!--android:layout_above="@+id/navpage_layout"-->
+        <!--app:dragAndDropEnabled="false"-->
+        <!--app:fixedHeaders="true"-->
+        <!--app:solidRowHeaders="false" />-->
+
+    <!--<com.lte.ui.widget.NavigationPageView-->
+        <!--android:id="@+id/navpage_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+</LinearLayout>

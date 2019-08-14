@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5.0dip"
+    android:paddingLeft="1.0dip"
+    android:paddingRight="1.0dip"
+    android:paddingTop="5.0dip">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_operator"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_operator"
+            android:layout_centerHorizontal="true"
+            android:text="2G"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="BBU9" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="正在侦码中" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!--<TextView-->
+                <!--android:background="@color/color_input_border"-->
+                <!--android:id="@+id/scan"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="移动扫描"-->
+                <!--android:gravity="center"/>-->
+
+            <TextView
+                android:background="@color/color_input_border"
+                android:id="@+id/scan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="联通扫描"
+                android:gravity="center"/>
+
+            <TextView
+                android:background="@color/color_input_border"
+                android:id="@+id/system_restart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="重启"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/mcc1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1.2"-->
+                <!--android:lines="1"-->
+                <!--android:text="MCC:460" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/mnc1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:lines="1"-->
+                <!--android:text="MNC:00" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/lac1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:lines="1"-->
+                <!--android:text="LAC:111" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/ci1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="0.8"-->
+                <!--android:lines="1"-->
+                <!--android:text="CI:60" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/cro1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:lines="1"-->
+                <!--android:text="CRO:60" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/workModel1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="工作模式:非驻留模式" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/configModel1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="配置模式:自动配置模式" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/recaptureTime1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="重新捕获时间间隔:120" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/carrierFrequencyPoint1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="载波频点:16" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="起始频点1" />-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="结束频点1" />-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="起始频点2" />-->
+
+            <!--<TextView-->
+
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="结束频点2" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/startingFrequencyPoint11"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="1" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/endFrequencyPoint11"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="95" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/startingFrequencyPoint21"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="2" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/endFrequencyPoint21"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="636" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/downlinkAttenuation1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="下行衰减：19" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/uplinkAttenuation1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="上行衰减：35" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/frequencyOffset1"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="频率偏移：0" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/open_dbm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/color_input_border"
+                android:text="开始" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/close_dbm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/color_input_border"
+                android:text="暂停" />
+
+            <!--<TextView-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/carrier_restart"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@color/color_input_border"-->
+                <!--android:text="载波复位" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

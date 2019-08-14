@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_llyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <!--android:background="@drawable/filter_title_btn_bg"-->
+    <TextView
+        android:id="@+id/check_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="testbtn"
+        android:textColor="@color/v6_deep_color"
+        android:textSize="14sp" />
+    <!--android:textColor="@drawable/check_text_color"-->
+    <ImageView
+        android:id="@+id/check_anim"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/abs__spinner_ab_default_holo_light" />
+
+</LinearLayout>

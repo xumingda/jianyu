@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/title_bar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="B1 功放开关"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+
+        <com.lte.ui.widget.SwitchButton
+            android:id="@+id/sb_settings_vibrate1"
+            android:layout_width="23dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:checked="true"
+            app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+            app:kswThumbColor="@color/white"
+            app:kswTintColor="@color/white" />
+
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query1"
+            />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭"
+            android:id="@+id/state1"
+            />
+    </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B3 功放开关"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+
+            <com.lte.ui.widget.SwitchButton
+                android:id="@+id/sb_settings_vibrate3"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+                app:kswThumbColor="@color/white"
+                app:kswTintColor="@color/white" />
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query3"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:id="@+id/state3"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B38 功放开关"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+
+            <com.lte.ui.widget.SwitchButton
+                android:id="@+id/sb_settings_vibrate38"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+                app:kswThumbColor="@color/white"
+                app:kswTintColor="@color/white" />
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query38"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:id="@+id/state38"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B39 功放开关"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+
+            <com.lte.ui.widget.SwitchButton
+                android:id="@+id/sb_settings_vibrate39"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+                app:kswThumbColor="@color/white"
+                app:kswTintColor="@color/white" />
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query39"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:id="@+id/state39"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B40 功放开关"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+
+            <com.lte.ui.widget.SwitchButton
+                android:id="@+id/sb_settings_vibrate40"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+                app:kswThumbColor="@color/white"
+                app:kswTintColor="@color/white" />
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query40"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:id="@+id/state40"
+                />
+        </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="扫频开关"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+
+            <com.lte.ui.widget.SwitchButton
+                android:id="@+id/sb_scan_vibrate"
+                android:layout_width="23dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:checked="true"
+                app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"
+                app:kswThumbColor="@color/white"
+                app:kswTintColor="@color/white" />
+
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_scan"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关闭"
+                android:id="@+id/state_scan"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="功放温度"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_tem"
+            />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="36"
+            android:id="@+id/tem"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="软件版本"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_ver"
+            />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="36"
+            android:id="@+id/ver"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="模块地址"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="设置"
+            android:id="@+id/set_address"
+            />
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_address"
+            />
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0x11"
+            android:id="@+id/address"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text=" B1 ATT"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="设置"
+            android:id="@+id/set_b1att"
+            />
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_b1att"
+            />
+        <TextView
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0x11"
+            android:id="@+id/b1att"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B3 ATT"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="设置"
+                android:id="@+id/set_b3att"
+                />
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b3att"
+                />
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b3att"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B38 ATT"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="设置"
+                android:id="@+id/set_b38att"
+                />
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b38att"
+                />
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b38att"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B39 ATT"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="设置"
+                android:id="@+id/set_b39att"
+                />
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b39att"
+                />
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b39att"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B40 ATT"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="设置"
+                android:id="@+id/set_b40att"
+                />
+            <Button
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b40att"
+                />
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b40att"
+                />
+        </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="B1 功率检测"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_b1power"
+            />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0x11"
+            android:id="@+id/b1power"
+            />
+    </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B3 功率检测"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b3power"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b3power"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B38 功率检测"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b38power"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b38power"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B39 功率检测"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b39power"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b39power"
+                />
+        </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_selector1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B40 功率检测"
+                android:textColor="@color/v6_deep_color"
+                android:textSize="@dimen/middle_size" />
+            <Button
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_bt_bg"
+                android:text="查询"
+                android:id="@+id/query_b40power"
+                />
+            <TextView
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="@dimen/dp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0x11"
+                android:id="@+id/b40power"
+                />
+        </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="告警状态"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="查询"
+            android:id="@+id/query_alarm"
+            />
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0x11"
+            android:id="@+id/alarm"
+            />
+    </LinearLayout>
+    <include
+        layout="@layout/split_h_df"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="复位"
+            android:textColor="@color/v6_deep_color"
+            android:textSize="@dimen/middle_size" />
+        <Button
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_bt_bg"
+            android:text="复位"
+            android:id="@+id/set_relese"
+            />
+    </LinearLayout>
+        <include
+            layout="@layout/split_h_df"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

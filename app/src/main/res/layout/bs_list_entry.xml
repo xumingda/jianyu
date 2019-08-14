@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutAnimation="@null"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layoutAnimation="@null"
+        tools:ignore="UseCompoundDrawables">
+
+        <!--<com.imusic.view.IMSimpleDraweeView-->
+            <!--android:id="@id/bs_list_image"-->
+            <!--android:layout_width="32dp"-->
+            <!--android:layout_height="32dp"-->
+            <!--android:layout_marginLeft="12dp"-->
+            <!--android:layout_marginRight="14dp"-->
+            <!--fresco:actualImageScaleType="centerCrop"-->
+            <!--fresco:placeholderImage="@drawable/album_default_bg"-->
+            <!--fresco:fadeDuration="300"-->
+            <!--fresco:failureImageScaleType="centerInside"-->
+            <!--fresco:placeholderImageScaleType="centerCrop"-->
+            <!--fresco:progressBarAutoRotateInterval="1000"-->
+            <!--fresco:progressBarImageScaleType="centerInside"-->
+            <!--fresco:retryImageScaleType="centerCrop"-->
+            <!--fresco:roundAsCircle="false" />-->
+
+        <TextView
+            android:id="@id/bs_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/v6_deep_color"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+
+    <!--<include layout="@layout/split_h_df" />-->
+    <TextView
+        android:id="@+id/bs_list_diviver"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_d0"
+        />
+
+</LinearLayout>

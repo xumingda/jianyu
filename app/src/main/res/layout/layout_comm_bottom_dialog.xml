@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/common_dialog_bottom_margin"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/bg_common_dialog_gray"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_dialog_vertical_padding"
+        android:paddingEnd="@dimen/common_dialog_horizontal_padding"
+        android:paddingStart="@dimen/common_dialog_horizontal_padding"
+        android:paddingTop="@dimen/common_dialog_vertical_padding">
+
+        <ImageView
+            android:id="@+id/iv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/icon_error"/>
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8.64dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="密码小于6位数"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

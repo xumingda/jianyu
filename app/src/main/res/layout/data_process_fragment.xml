@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/two"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip">
+                <RelativeLayout
+                    android:id="@+id/layout_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dip">
+                    <!--<ImageView android:id="@+id/qianbao"-->
+                        <!--android:layout_width="40.0dip"-->
+                        <!--android:layout_height="40.0dip"-->
+                        <!--android:layout_marginLeft="10.0dip"-->
+                        <!--android:src="@mipmap/qq_setting_qianbao"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:contentDescription="@string/app_name" />-->
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="@string/follow"
+                        android:layout_alignBottom="@id/imageView"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <RelativeLayout
+                    android:id="@+id/layout_two"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip">
+                    <!--<ImageView-->
+                        <!--android:id="@+id/shoucang"-->
+                        <!--android:layout_width="40.0dip"-->
+                        <!--android:layout_height="40.0dip"-->
+                        <!--android:layout_marginLeft="10.0dip"-->
+                        <!--android:src="@mipmap/qq_setting_shoucang"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:contentDescription="@string/app_name" />-->
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="@string/collision"
+                        android:layout_alignTop="@id/imageView1"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <RelativeLayout
+                    android:id="@+id/layout_three"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="@string/statistic"
+                        android:layout_alignTop="@id/imageView2"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <RelativeLayout
+                    android:id="@+id/layout_four"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50.0dip">
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="@string/history"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/three"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:layout_below="@id/two">
+            <RelativeLayout android:id="@+id/layout_five"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                >
+                <ImageView android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name" />
+                <TextView android:id="@+id/blacklist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:text="黑名单"
+                    android:layout_alignBottom="@id/imageView4"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View
+                android:background="@color/devide_line"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip" />
+            <RelativeLayout android:id="@+id/layout_sixe"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:layout_below="@id/layout_four">
+                <ImageView android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                    android:scaleType="fitXY"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/app_name" />
+                <TextView android:id="@+id/whitelist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20.0dip"
+                    android:text="白名单"
+                    android:layout_alignBottom="@id/imageView5"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <RelativeLayout android:id="@+id/layout_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_below="@id/layout_four">
+                    <ImageView android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView android:id="@+id/blacklist_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="黑名单记录"
+                        android:layout_alignBottom="@id/imageView7"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <View
+                    android:background="@color/devide_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip" />
+                <RelativeLayout android:id="@+id/layout_eight"
+                    android:layout_width="match_parent"
+                    android:layout_height="50.0dip"
+                    android:layout_below="@id/layout_four">
+                    <ImageView android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@mipmap/qvip_pay_wallet_icon_arrow_right_normal"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dip"
+                        android:text="手机号翻译"
+                        android:layout_alignBottom="@id/imageView8"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_below="@id/three"-->
+                <!--android:layout_marginTop="10dp">-->
+            <!--<include-->
+                <!--layout="@layout/split_h_df"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--/>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/item_selector1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:paddingRight="20dp"-->
+                <!--android:paddingTop="10dp"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="上号告警音开关"-->
+                    <!--android:textColor="@color/v6_deep_color"-->
+                    <!--android:textSize="@dimen/middle_size"-->
+                    <!--/>-->
+
+                <!--<com.lte.ui.widget.SwitchButton-->
+                    <!--android:id="@+id/sb_settings_ring"-->
+                    <!--android:layout_width="23dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:checked="true"-->
+                    <!--app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"-->
+                    <!--app:kswTintColor="@color/white"-->
+                    <!--app:kswThumbColor="@color/white"-->
+                    <!--/>-->
+            <!--</LinearLayout>-->
+            <!--<include-->
+                <!--layout="@layout/split_h_df"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp" />-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/item_selector1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:paddingBottom="10dp"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:paddingRight="20dp"-->
+                <!--android:paddingTop="10dp"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:text="上号告警震动开关"-->
+                    <!--android:textColor="@color/v6_deep_color"-->
+                    <!--android:textSize="@dimen/middle_size"-->
+                    <!--/>-->
+
+                <!--<com.lte.ui.widget.SwitchButton-->
+                    <!--android:id="@+id/sb_settings_vibrate"-->
+                    <!--android:layout_width="23dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:checked="true"-->
+                    <!--app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"-->
+                    <!--app:kswTintColor="@color/white"-->
+                    <!--app:kswThumbColor="@color/white"-->
+                    <!--/>-->
+            <!--</LinearLayout>-->
+            <!--<include-->
+                <!--layout="@layout/split_h_df"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="20dp" />-->
+                <!--<include-->
+                    <!--layout="@layout/split_h_df"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_marginRight="20dp" />-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/item_selector1"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:paddingRight="20dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--&gt;-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="GSM开关"-->
+                        <!--android:textColor="@color/v6_deep_color"-->
+                        <!--android:textSize="@dimen/middle_size"-->
+                        <!--/>-->
+
+                    <!--<com.lte.ui.widget.SwitchButton-->
+                        <!--android:id="@+id/sb_gsm_vibrate"-->
+                        <!--android:layout_width="23dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:checked="true"-->
+                        <!--app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"-->
+                        <!--app:kswTintColor="@color/white"-->
+                        <!--app:kswThumbColor="@color/white"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+                <!--<include-->
+                    <!--layout="@layout/split_h_df"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_marginRight="20dp" />-->
+                <!--<include-->
+                    <!--layout="@layout/split_h_df"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_marginRight="20dp" />-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/item_selector1"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:paddingRight="20dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--&gt;-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_gravity="center_vertical"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:text="CDMA开关"-->
+                        <!--android:textColor="@color/v6_deep_color"-->
+                        <!--android:textSize="@dimen/middle_size"-->
+                        <!--/>-->
+
+                    <!--<com.lte.ui.widget.SwitchButton-->
+                        <!--android:id="@+id/sb_cdma_vibrate"-->
+                        <!--android:layout_width="23dp"-->
+                        <!--android:layout_height="25dp"-->
+                        <!--android:checked="true"-->
+                        <!--app:kswBackDrawable="@drawable/live_dan_switch_back_drawable"-->
+                        <!--app:kswTintColor="@color/white"-->
+                        <!--app:kswThumbColor="@color/white"-->
+                        <!--/>-->
+                <!--</LinearLayout>-->
+                <!--<include-->
+                    <!--layout="@layout/split_h_df"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1px"-->
+                    <!--android:layout_marginLeft="20dp"-->
+                    <!--android:layout_marginRight="20dp" />-->
+            <!--</LinearLayout>-->
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

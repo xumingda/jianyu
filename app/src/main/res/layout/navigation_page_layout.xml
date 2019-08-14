@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/nav_first"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/v6_deep_color"
+        android:text="第一页"
+        android:enabled="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/nav_previous"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="上一页"
+        android:textColor="@color/v6_deep_color"
+        android:enabled="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/nav_next"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/v6_deep_color"
+        android:text="下一页"
+        android:enabled="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/nav_last"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/v6_deep_color"
+        android:text="最后一页"
+        android:enabled="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/nav_total"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:text="总页数："
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:drawable="@color/background_tab_pressed" android:state_pressed="true"/>-->
+
+    <!--<item android:drawable="@color/blue"/>-->
+    <item android:state_window_focused="false">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="100dp" />
+            <!--填充颜色-->
+            <solid android:color="@color/colorPrimary" />
+            <!--描边-->
+            <!--<stroke android:width="2.5dp" android:color="@color/btnstroke" />-->
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="50dp" />
+            <!--填充颜色-->
+            <solid android:color="@color/background_tab_pressed" />
+            <!--描边-->
+            <!--<stroke android:width="2.5dp" android:color="@color/btnback" />-->
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!--<com.imusic.view.IMSimpleDraweeView-->
+            <!--android:id="@id/bottom_sheet_title_image"-->
+            <!--android:layout_width="56dp"-->
+            <!--android:layout_height="56dp"-->
+            <!--fresco:actualImageScaleType="centerCrop"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--fresco:placeholderImage="@drawable/icon"-->
+            <!--fresco:fadeDuration="300"-->
+            <!--fresco:failureImageScaleType="centerInside"-->
+            <!--fresco:placeholderImageScaleType="fitCenter"-->
+            <!--fresco:progressBarAutoRotateInterval="1000"-->
+            <!--fresco:progressBarImageScaleType="centerInside"-->
+            <!--fresco:retryImageScaleType="centerCrop"-->
+            <!--fresco:roundAsCircle="false" />-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="13dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:id="@+id/bottom_sheet_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/v6_deep_color"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="16sp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/bottom_sheet_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/v6_light_gray_color"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="12sp"
+                android:visibility="gone"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/split_h_df" />
+
+</LinearLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/save"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/bt_save"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/clear"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/bt_clear"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/start1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/bt_start"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/scene"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/bt_scene"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/restart"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/bt_restart"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_a9"/>
+    <TextView
+        android:id="@+id/tv_scene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textSize="18sp"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="4dp">
+
+
+        <com.lte.ui.widget.TitleCheckView
+            android:id="@+id/begin_time_input_value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+        <com.lte.ui.widget.TitleCheckView
+            android:id="@+id/end_time_input_value"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent" />
+
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="30.0dip"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                >
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/attribuation"
+                    android:layout_width="72dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/xuhao" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/imsi1"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/imsi" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/imei1"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/imei" />
+                <TextView
+                    android:id="@+id/mobile"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:text="@string/mobile"/>
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/timestamp"
+                    android:layout_width="140dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/time" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/count"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/bbu" />
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/attribution"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/attribuation"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:id="@+id/number"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/operator"
+                    />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imsi_list"
+                android:descendantFocusability="blocksDescendants"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

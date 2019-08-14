@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_input_border_width" >1.5dp</dimen>
+    <dimen name="common_btn_radius">10dp</dimen>
+    <dimen name="common_input_horizontal_ic_padding">15dp</dimen>
+    <dimen name="common_btn_height">38dp</dimen>
+    <dimen name="common_input_text_size">18sp</dimen>
+    <dimen name="common_btn_horizontal_margin">36dp</dimen>
+    <dimen name="radius_common_btn_bg">12dp</dimen>
+    <dimen name="bottombar_height">52dp</dimen>
+
+    <dimen name="common_dialog_radius">15dp</dimen>
+    <dimen name="common_dialog_horizontal_padding">27dp</dimen>
+    <dimen name="common_dialog_vertical_padding">15dp</dimen>
+    <dimen name="common_dialog_bottom_margin">40dp</dimen>
+
+    <!-- TableLayout -->
+    <dimen name="column_width">120dp</dimen>
+    <dimen name="row_height">40dp</dimen>
+    <dimen name="column_header_height">40dp</dimen>
+    <dimen name="row_header_width">80dp</dimen>
+    <dimen name="middle_size">16sp</dimen>
+    <dimen name="dp48">48dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+</resources>

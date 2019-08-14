@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="IMSI上报服务器IP:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_noman_up_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IMSI上报服务器地址"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="IMSI上报服务器端口:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_noman_up_port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IMSI上报服务器端口"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="查询手机号码服务器IP:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/query_mobile_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="查询手机号码服务器IP"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="查询手机号码服务器端口:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/query_mobile_port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="查询手机号码服务器端口"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="查询手机号码账号:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_mobile_usename"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+        <Button
+            android:id="@+id/chang_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="切换账号"
+            android:textColor="@color/red"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="查询手机号码密码:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_mobile_usepassword"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/chang_pswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改密码"
+            android:textColor="@color/red"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="剩余查询次数:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="6"
+            android:background="@drawable/btn_click_bg"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</LinearLayout>

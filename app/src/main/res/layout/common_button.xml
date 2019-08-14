@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+
+        <LinearLayout
+            android:id="@+id/common_constact"
+            android:layout_width="250.0dip"
+            android:layout_height="30.0dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/left"
+                style="@style/left"
+                android:text="@string/left" />
+
+
+            <Button
+                android:id="@+id/right"
+                style="@style/center"
+                android:text="@string/right" />
+            <Button
+                android:id="@+id/last"
+                style="@style/right"
+                android:text="@string/last" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_a9"/>
+    <!--<Button-->
+        <!--android:text="开始"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/start"/>-->
+</LinearLayout>

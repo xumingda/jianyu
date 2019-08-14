@@ -1,0 +1,545 @@
+<resources>
+    <string name="app_name">LTE—检查</string>
+    <string name="project_name">设备管控系统</string>
+    <string name="account_login">用户登录</string>
+    <string name="lang_zn">简体中文</string>
+    <string name="account_username">请输入用户名</string>
+    <string name="account_password">请输入密码</string>
+    <string name="account_username_empty">账号不能为空</string>
+    <string name="account_password_at_least">密码错误</string>
+    <string name="login_error">登录失败，账号或密码错误</string>
+    <string name="add_new_device">添加基站</string>
+    <string name="config_station">配置基站</string>
+    <string name="config_name">请输入名字</string>
+    <string name="config_ip">请输入IP</string>
+    <string name="connect">已连接</string>
+    <string name="disConnected">重连中...</string>
+    <string name="crate_connect">创建连接</string>
+    <string name="cancel">取消</string>
+    <string name="grade">更新</string>
+    <string name="_90">90</string>
+    <string name="operating_band">工作频带：</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="frequency_offset">是否保存频偏：</string>
+    <string name="auxiliary_frequency_correction">nmm辅助纠频偏</string>
+    <string name="mix">混合模式</string>
+    <string name="gps">GPS</string>
+    <string name="cnm">CNM</string>
+    <string name="synchronous_mode">同步模式：</string>
+    <string name="unit">单位0.01us</string>
+    <string name="time_delay_field">时延域：</string>
+    <string name="_20m">20M</string>
+    <string name="_10m">10M</string>
+    <string name="_5m">5M</string>
+    <string name="bandwidth">带宽：</string>
+    <string name="cill_config">小区配置</string>
+    <string name="config">初始配置</string>
+    <string name="back">返回</string>
+    <string name="scan_set">扫频设置</string>
+    <string name="dbm">配置DBM：</string>
+    <string name="dbm_0_43_127">发射功率DBM，范围0-43，值127表示关闭发射功率</string>
+    <string name="save">保存</string>
+    <string name="dbm_set">DBM配置</string>
+    <string name="pci">PCI列表：</string>
+    <string name="pci_number">PCI数量：</string>
+    <string name="earfcn_range_number">earfcn_range数量：</string>
+    <string name="earfch_range_list">频点范围列表：</string>
+    <string name="rssi">RSSI值：</string>
+    <string name="scan_result">扫频结果上报策略：</string>
+    <string name="add_pci">添加PCI：</string>
+    <string name="add_earfch_range">添加earfch_range：</string>
+    <string name="downlink_frequency_point">下行频点：</string>
+    <string name="cell_pci">小区PCI：</string>
+    <string name="plmn">PlMN：</string>
+    <string name="tac">TAC：</string>
+    <string name="cell_pci_number">同频小区PCI数量：</string>
+    <string name="add_cell_pci">添加同频小区PCI：</string>
+    <string name="pilot_frequency">异频频点数量：</string>
+    <string name="add_pilot_frequency">添加异频频点：</string>
+    <string name="uplink_frequency_point">上行频点：</string>
+    <string name="uplink_frequency_point_tip">不需要配置请留空</string>
+    <string name="transmitted_power">发射功率：</string>
+    <string name="measure">是否启用测量：</string>
+    <string name="measure_tip">0表示不启用，1表示启用</string>
+    <string name="tac_cycle">TAC更新周期：</string>
+    <string name="plmn_number">PLMN数量：</string>
+    <string name="add_pci_title">添加PCi</string>
+    <string name="add">添加</string>
+    <string name="not_be_null">不能为空</string>
+    <string name="add_tip">每一个数据请用\"，\"隔开</string>
+    <string name="add_number">数据只能包含0到9数字，不能包含非法字符</string>
+    <string name="data_report">数据上报</string>
+    <string name="data_processing">数据处理</string>
+    <string name="set">设备</string>
+    <string name="left">数据采集</string>
+    <string name="center1">center1</string>
+    <string name="center2">center2</string>
+    <string name="right">位置采集</string>
+    <string name="last">场强仪</string>
+    <string name="operator">运营商</string>
+    <string name="imsi">IMSI</string>
+    <string name="field_strength">场强</string>
+    <string name="times">次数</string>
+    <string name="time">时间</string>
+    <string name="serial_number">序号</string>
+    <string name="reception_level">接收电平</string>
+    <string name="thresh_high">thresh-High</string>
+    <string name="thresh_low">thresh-Low</string>
+    <string name="mac">MAC</string>
+    <string name="attribuation">归属地</string>
+    <string name="phone_user_name">姓名</string>
+    <string name="position">部职别</string>
+    <string name="bbu">BBU</string>
+    <string name="state">已同步已激活</string>
+    <string name="init_config">初始配置</string>
+    <string name="yidong">移动</string>
+    <string name="liantong">联通</string>
+    <string name="dianxin">电信</string>
+    <string name="register">设备注册信息</string>
+    <string name="height">设备高度</string>
+    <string name="longitude">设备经度</string>
+    <string name="devnumber">设备编号</string>
+    <string name="devname">设备名字</string>
+    <string name="typemodel">设备型号</string>
+    <string name="devtype">设备类型</string>
+    <string name="devconformation">设备形态</string>
+    <string name="phonenumber">维护人员编号</string>
+    <string name="latitude">设备纬度</string>
+    <string name="mac1">设备MAC</string>
+    <string name="devaddress">设备地址</string>
+    <string name="timestamp">设备当前时间</string>
+    <string name="un_connected">未连接未同步</string>
+    <string name="config_dbm">已同步已激活</string>
+    <string name="unconfig_dbm">未同步未激活</string>
+    <string name="close">关闭</string>
+    <string name="unConfig">未配置</string>
+    <string name="configing">正在初始配置</string>
+    <string name="set_time">设置系统时间</string>
+    <string name="close_dbm">关闭DBM</string>
+    <string name="query_status">查询系统状态</string>
+    <string name="start_scan">启动扫频</string>
+    <string name="scaned">扫频完成</string>
+    <string name="cell_config">下发小区配置</string>
+    <string name="cell_configed">小区配置完成</string>
+    <string name="open_dbm">打开DBM</string>
+    <string name="configed">配置完成</string>
+    <string name="cpu_tem" >CPU温度：%1$d℃</string>
+    <string name="cpu_use" >CPU利用率：%1$d</string>
+    <string name="rom_use" >内存利用率：%1$d</string>
+    <string name="tem" >单板温度：%1$d℃</string>
+    <string name="scan_can_not_use">自动配置暂不可用</string>
+    <string name="close_dbm_tip">扫频之前必须关闭所有基带板DBM，确认将关闭全部基带板DBM</string>
+    <string name="scan_result1">扫频历史</string>
+    <string name="sib5_scan_result1">SIB5扫频历史</string>
+    <string name="freq">频点</string>
+    <string name="pci1">PCI</string>
+    <string name="tac1">TAC</string>
+    <string name="rssi1">RSSI</string>
+    <string name="bbu_init">BBU初始配置中</string>
+    <string name="bbu_scan">BBU正在扫频</string>
+    <string name="bbu_cell_config">BBU正在配置小区</string>
+    <string name="bbu_scan_success">BBU扫频完成</string>
+    <string name="bbuinit">BBU正在初始化</string>
+    <string name="bbuscan">BBU搜索主控板</string>
+    <string name="bbu2">BBU待命</string>
+    <string name="bbu3">BBU正在扫频</string>
+    <string name="bbu4">BBU正在配置小区</string>
+    <string name="bbu5">BBU正在侦码</string>
+    <string name="bbu6">BBU初始配置中</string>
+    <string name="devnumber_not_register">当前设备尚未注册服务器，数据将不会上传服务器，请注册。</string>
+    <string name="register_success">注册成功</string>
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="xuhao">序号</string>
+    <string name="softver1" >软件版本号：%1s</string>
+    <string name="softver2" >物理层版本号：%1s</string>
+    <string name="softver3" >内核版本号：%1s</string>
+    <string name="softver4" >硬件版本号：%1s</string>
+    <string name="verSoft">版本查询</string>
+    <string name="oneDay">当天</string>
+    <string name="sevenDay">七天</string>
+    <string name="oneMonth">一个月</string>
+    <string name="more">更多</string>
+    <string name="clear">清屏</string>
+    <string name="all">全部</string>
+    <string name="clear_tip">清空上号数据，只显示新上号数据</string>
+    <string name="version">APP版本：%s</string>
+    <string name="press_again_exit">再按一次退出程序，请确认数据已保存</string>
+    <string name="start">开始时间</string>
+    <string name="end">结束时间</string>
+    <string name="start1">开始</string>
+
+    <!-- 图片缓存文件路径 -->
+    <string name="image_cache_path">sdcard/lte/cache/image</string>
+    <!-- 头像图片缓存文件路径 -->
+    <string name="image_head_path">sdcard/lte/headImg</string>
+    <string name="data_download_path">sdcard/lte/shared</string>
+    <string name="chart.statistic.title">统计图</string>
+
+    <string name="config_path">sdcard/lte/config</string>
+    <string name="config_log_path">sdcard/lte/usr/log</string>
+    <string name="data_manager">数据管理</string>
+    <string name="http_set">服务器设置</string>
+    <string name="tips">当前可用查询手机号次数少于100次，请注意充值或者更换账号</string>
+    <string name="changeUser">切换账号</string>
+    <string name="modify_password">修改密码</string>
+    <string name="change_use_tip">切换账号</string>
+    <string name="change_use_succes">账号切换成功</string>
+    <string name="change_password_tip">修改密码</string>
+    <string name="save_success">保存成功</string>
+    <string name="use_tips">请输入账号</string>
+    <string name="psw_tips">请输入密码</string>
+    <string name="change_psw_tips">密码修改成功</string>
+    <string name="change_fail_tips">请求失败</string>
+    <string name="follow_tme">伴随时间</string>
+    <string name="collision_tme">碰撞时间</string>
+    <string name="number">计数</string>
+    <string name="mobile">手机号码</string>
+    <string name="black">黑名单管理</string>
+    <string name="imei">IMEI</string>
+
+    <string name="progressbar_loading">加载中...</string>
+    <string name="bs_more">More</string>
+    <string name="edit">编辑</string>
+    <string name="btn_delete">删除</string>
+    <string name="white">白名单管理</string>
+    <string name="query_succes">查询成功</string>
+    <string name="query_fail">查询失败</string>
+    <string name="mobile_zidingyi">手机号自助翻译</string>
+    <string name="mcc">MCC:%1s</string>
+    <string name="mnc">MNC:%1s</string>
+    <string name="lac">LAC:%1s</string>
+    <string name="ci">CI:%1s</string>
+    <string name="cro">CRO:%1s</string>
+    <string name="workModel1">工作模式:非驻留模式</string>
+    <string name="workModel0">工作模式:驻留模式</string>
+    <string name="configModel0">配置模式:自动配置模式</string>
+    <string name="configModel1">配置模式:手动配置</string>
+    <string name="recaptureTime">重新捕获时间间隔:%1$d</string>
+    <string name="carrierFrequencyPoint">载波频点:%1$d</string>
+    <string name="downlinkAttenuation" >下行衰减:%1s</string>
+    <string name="uplinkAttenuation" >上行衰减:%1s</string>
+    <string name="frequencyOffset" >频率偏移:%1$d</string>
+    <string name="close_tip">关闭射频确认</string>
+    <string name="carrier_restart">载波复位确认</string>
+    <string name="system_restart">重启系统确认</string>
+    <string name="open_dbm_tip">打开射频确认</string>
+    <string name="open_shepin">打开射频</string>
+    <string name="close_shepin">关闭射频</string>
+    <string name="gsm">GSM参数设置</string>
+    <string name="wcda">CDMA参数设置</string>
+    <string name="scan">移动网络扫描确认</string>
+    <string name="scan1">联通网络扫描确认</string>
+    <string name="scan3">网络扫描中</string>
+    <string name="pn">PN:%1s</string>
+    <string name="sid">SID:%1s</string>
+    <string name="nid">NID:%1s</string>
+    <string name="bsid">BSID:%1s</string>
+    <string name="cmda">CDMA:%1s</string>
+    <string name="workModel01">不掉话</string>
+    <string name="workModel11">掉话</string>
+    <string name="scene">场景</string>
+    <string name="scene_name">请输入场景名</string>
+    <string name="set_scene_name">请设置场景名</string>
+    <string name="newScene">添加新场景</string>
+    <string name="same_name_tips">名字已存在，请重新输入</string>
+    <string name="same_time_tips">所选择时间与已有</string>
+    <string name="error_tips">错误提示，电信号码或者国外号码不能翻译！</string>
+    <string name="same_name_error_tips" ></string>
+    <string name="upgrade_success">更新成功</string>
+    <string name="upgrade_name" >修改已有场景名(%1s)？</string>
+    <string name="follow">伴随分析</string>
+    <string name="collision">碰撞分析</string>
+    <string name="statistic">统计分析</string>
+    <string name="history">历史数据</string>
+    <string name="searchByScene">按场景查</string>
+    <string name="copyright_ver" translatable="false">App版本 : V %1s</string>
+    <string name="clear_cache">删除数据</string>
+    <string name="register_manager">设备注册</string>
+    <string name="upgrade">更新</string>
+    <string name="stop">暂停</string>
+    <string name="stop_tip">关闭设备功放，设备将停止上号！</string>
+    <string name="start_tip">打开设备功放，设备开始上号</string>
+    <string name="restart">重启</string>
+    <string name="restart_tip">系统重启？</string>
+    <string name="network_error">网络异常</string>
+    <string name="scan2">电信扫描</string>
+    <string name="clear_data">删除所有数据？</string>
+    <string name="copy_success">复制成功</string>
+    <string name="start2">启动</string>
+    <string name="imsi_imei">IMSI/IMEI</string>
+    <string name="black_record">黑名单记录</string>
+    <string name="delete_scene">选择删除的场景</string>
+    <string name="delete_all">删除全部</string>
+    <string name="delete_scene_sure" >删除场景(%1s)？</string>
+    <string name="device_set">设备型号</string>
+    <string name="add_bbu">添加BBU</string>
+    <string name="add_deviceType">添加设备型号</string>
+    <string name="deviceType">设备型号</string>
+    <string name="bbulist">对应BBU列表</string>
+    <string name="delete_deviceType">删除该设备型号</string>
+    <string name="deviceType_manager">设备型号管理</string>
+    <string name="delete_deviceBBU">删除BBU</string>
+    <string name="blackList_more_than_one">黑名单中包含多个数据，是否确认全部跟踪？</string>
+    <string name="open_position">开始定位信息采集</string>
+    <string name="close_position">关闭位置数据采集</string>
+    <string name="priority">优先级</string>
+    <string name="lock">冻屏</string>
+    <string name="release">释放</string>
+    <string name="clear_scanresult">清除扫频历史</string>
+    <string name="manually_added">手动添加</string>
+    <string name="import_from_sdcard">从SD卡导入</string>
+    <string name="error_opening_file">打开文件失败</string>
+    <string name="init">恢复出厂设置</string>
+    <string name="init_update">恢复所有设备默认参数？</string>
+    <string name="power_amplifier">功放管理</string>
+    <string name="query_mobiel_imsi">imsi:</string>
+    <string name="query_mobile_mobile">手机号:</string>
+    <string name="sure">确定</string>
+    <string name="lock1">锁定</string>
+    <string name="unlock">解锁</string>
+    <string name="add_band">添加band</string>
+    <string name="add_point">添加频点</string>
+    <string name="bandlist">band列表</string>
+    <string name="pointlist">对应循环频点</string>
+    <string name="point_manger">频点设置</string>
+    <string name="delete_point">删除频点</string>
+    <string name="band_manager">循环频点设置</string>
+    <string name="upgrade_time">更新时间</string>
+    <string name="no_Jurisdiction_error">当前手机没有使用权限，即将退出！</string>
+    <string name="getJurisdictionFail">请求失败，请检查网络</string>
+    <string name="redirect">重定向设置</string>
+    <string name="point">频点列表</string>
+    <string name="open">打开</string>
+    <string name="add_buu">添加目标BBU</string>
+    <string name="bbu_is_add">BBU已存在</string>
+    <string name="add_bbu_tip">请添加目标BBU</string>
+    <string name="no_Jurisdiction_error1">使用期限已到，或者未到使用时间，如有问题请与管理员联系！</string>
+    <string name="current_remaining_use_time">Tips：温馨提示：当前剩余使用时间为%d小时。</string>
+    <string name="tipsss">使用时间已经到，请联系管理员！</string>
+    <string name="tem1">温度：%1s</string>
+    <string name="address">功放地址:%1s</string>
+    <string name="ver">软件版本：%1s</string>
+    <string name="b1att">B1 ATT:%1s</string>
+    <string name="b3att">B3 ATT:%1s</string>
+    <string name="b38att">B38 ATT:%1s</string>
+    <string name="b39att">B39 ATT:%1s</string>
+    <string name="b40att">B40 ATT:%1s</string>
+    <string name="b1power">B1功率：%1s</string>
+    <string name="b3power">B3功率：%1s</string>
+    <string name="b38power">B38功率：%1s</string>
+    <string name="b39power">B39功率：%1s</string>
+    <string name="b40power">B40功率：%1s</string>
+    <string name="query_error">查询太频繁，请稍后再试</string>
+    <string name="close_btn1">关闭B1</string>
+    <string name="close_btn2">关闭B3</string>
+    <string name="close_btn3">关闭B38</string>
+    <string name="close_btn4">关闭B39</string>
+    <string name="close_btn5">关闭B40</string>
+    <string name="close_btn6">关闭B38/B39/B40</string>
+    <string name="close_btn7">关闭B38/B39</string>
+    <string name="close_btn8">关闭B38/B40</string>
+    <string name="close_btn9">关闭B39/B40</string>
+    <string name="open_btn1">打开B1</string>
+    <string name="open_btn2">打开B3</string>
+    <string name="update_fail">状态更新失败，请手动刷新</string>
+    <string name="open_btn_scan">打开扫频</string>
+    <string name="colse_btn_scan">关闭扫频</string>
+    <string name="open_2g">打开2G</string>
+    <string name="colse_2g">关闭2G</string>
+
+    <!--4g-->
+    <string name="confirm_exit">确定要退出吗?</string>
+    <string name="point_out">提示</string>
+    <string name="ensure">确定</string>
+    <string name="remove">取消</string>
+    <string name="Cancel">取消</string>
+    <string name="Save">保存</string>
+
+
+    <string name="welcome_toast">欢迎使用4G场强仪......</string>
+    <string name="strength_monitor">场强检测</string>
+    <string name="direction_monitor">方向监控</string>
+    <string name="tab_main">主页</string>
+    <string name="tab_config">配置信息</string>
+    <string name="tab_system">系统信息</string>
+    <string name="title">场强仪</string>
+
+    <string name="app_name_actMain">蓝牙串口通信助手</string>
+
+    <string name="app_name_actDiscovery">搜索蓝牙设备</string>
+
+    <string name="app_name_actAbout">关于我们</string>
+
+    <string name="app_name_actKeyBoard">键盘控制器</string>
+
+    <string name="btn_main_Send">发送</string>
+
+    <string name="btn_yes">确定</string>
+
+    <string name="btn_connect">连接</string>
+
+    <string name="btn_reSearch">重新搜索</string>
+
+    <string name="btn_click_me">按键</string>
+
+    <string name="btn_Keyboard_mode">键盘模式</string>
+
+    <string name="btn_Normal_mode">普通模式</string>
+
+    <string name="menu_main_Connection">连接设备</string>
+
+    <string name="menu_Clear">清屏</string>
+
+    <string name="menu_main_About">关于</string>
+
+    <string name="menu_main_IO_Mode">输入输出模式</string>
+
+    <string name="menu_keyboard_set">设置键盘</string>
+
+    <string name="menu_keyboard_set_over">键盘设置结束</string>
+
+    <string name="et_actDiscovery_SendText_Hint">输入需要发送的字符串</string>
+
+    <string name="rb_IO_Mode_Set_Char">字符串</string>
+
+    <string name="rb_IO_Mode_Set_Hex">Hex(00-FF)</string>
+
+    <string name="tv_IO_Mode_Set_Input">输入显示类型</string>
+
+    <string name="tv_IO_Mode_Set_Output">输出类型</string>
+
+    <string name="tv_keyboard_set_BtnName">按钮名称:</string>
+
+    <string name="tv_keyboard_set_SendValue">发送内容:</string>
+
+    <string name="tv_actDiscovery_Receive_Show_Init">请按【MENU】键，创建蓝牙设备连接。 提示：第一次连接前请先建立手机与蓝牙设备的配对</string>
+
+    <string name="tv_actKeyBoard_Init">通过【MENU】键，可设置键盘的每个按键功能。</string>
+
+    <string name="dialog_title_IO_Mode_Set">输入输出类型设置</string>
+
+    <string name="dialog_title_keyboard_Set">按钮功能设置</string>
+
+    <string name="dialog_title_Err">错误</string>
+
+    <string name="dialog_title_Operat_Mode">选择操作模式</string>
+
+    <string name="msg_actDiscovery_Connevction_Access">蓝牙串口连接成功</string>
+
+    <string name="msg_actDiscovery_SendBytesErr">串口发送数据失败</string>
+
+    <string name="msg_actDiscovery_select_device">选择需要连接的蓝牙设备</string>
+
+    <string name="msg_actDiscovery_Bluetooth_Open_Fail">蓝牙未开启，请退出重试.</string>
+
+    <string name="msg_actDiscovery_Bluetooth_Open_Modle">正在打开蓝牙模块....</string>
+
+    <string name="msg_actDiscovery_Bluetooth_Open">正在尝试开启蓝牙设备.</string>
+
+    <string name="msg_actDiscovery_Bluetooth_SPP_Conn_Fail">蓝牙设备串口通讯连接失败。</string>
+
+    <string name="msg_actDiscovery_Search">蓝牙设备搜索中...</string>
+
+    <string name="msg_actDiscovery_Bluetooth_Bond_msg">当前选择的设备未绑定，请绑定后再连接</string>
+
+    <string name="msg_actDiscovery_Bluetooth_Bond_fail">蓝牙设备绑定失败</string>
+
+    <string name="msg_Hex_String_Illegal">16进制值不合法</string>
+
+    <string name="msg_Bluetooth_conn_lost">设备未连接</string>
+
+    <string name="msg_please_connect">请先建立蓝牙连接</string>
+
+    <string name="msg_connect_ok">设备连接成功</string>
+
+    <string name="msg_re_connect">请退出程序后，再连接。</string>
+
+    <string name="msg_connect_history">直接建立上次已成功连接的设备连接？ 请确认需要连接的设备已开起，并且在有效距离内。</string>
+
+    <string name="msg_connecting">设备连接中...</string>
+
+    <string name="msg_main_Operation_mode">请选择你需要的操作模式。【普通模式】为字符串输入输出模式。【键盘模式】为9宫格按钮布局，每次按下按钮后会发送一串预制数据到接收端。</string>
+
+    <string name="msg_keyboard_Setings">当前为键盘设置模式。按【menu】键，选择【键盘设置结束】，来完成设置</string>
+
+    <string name="var_about_language">cn</string>
+
+    <string name="display_mode">显示方式</string>
+
+    <string name="syn_b40">B40</string>
+
+    <string name="syn_b39">B39</string>
+
+    <string name="syn_b38">B38</string>
+
+    <string name="syn_b41">B41</string>
+
+    <string name="syn_b1_lian">B1-联通</string>
+
+    <string name="syn_b1_dian">B1-电信</string>
+
+    <string name="syn_b3_lian">B3-联通</string>
+
+    <string name="syn_b3_dian">B3-电信</string>
+
+    <string name="syn_b5">B5</string>
+
+    <string name="syn_b8">B8</string>
+
+    <string name="syn_sate">同步频点</string>
+
+    <string name="display_state1">功率</string>
+
+    <string name="display_state2">数值</string>
+
+    <string name="display_state3">方向</string>
+
+    <string name="display_state4">距离</string>
+
+    <string name="mode_switch">制式：</string>
+    <string name="msg_channel">信道号：</string>
+
+    <string name="app_more_function">系统信息</string>
+    <string name="app_version_code">FPGA版本</string>
+
+    <string name="lang_change">MCU版本</string>
+
+    <string name="app_version">APP版本</string>
+
+    <string name="mode_chose">制式切换</string>
+    <string name="tdd">TDDLTE_MODE</string>
+    <string name="fdd">FDDLTE_MODE</string>
+    <string name="wcd">WCDMA_MODE</string>
+    <string name="cdma">CDMA_MODE</string>
+    <string name="tds">TDSCDMA_MODE</string>
+    <string name="gsmmode">GSM_MODE</string>
+
+    <string name="old_v">老版本</string>
+    <string name="new_v">新版本</string>
+
+    <string name="Settings">去设置</string>
+    <string name="Apply">权限申请</string>
+    <string name="PhoneDialogHead">在设置-应用-</string>
+    <string name="PhoneDialogTail">-权限中开启电话权限，以正常使用App功能</string>
+
+    <string name="LocationDialogHead">在设置-应用-</string>
+    <string name="LocationDialogTail">-权限中开启位置权限，以正常使用App功能</string>
+
+    <string name="title_setChannel">请输入信道号</string>
+    <string name="title_setPCI">请输入PCI</string>
+    <string name="title_setSyn">请输入同步频点</string>
+
+    <string name="error_message_one">制式必须先选好</string>
+    <string name="error_message">信号通道和制式必须先选好</string>
+    <string name="error_message_all">请把信息填写完整</string>
+    <string name="tip_channelValue">请输入0-65535的数字</string>
+    <string name="tip_pciValue">请输入0-503的数字</string>
+    <string name="tip_pnValue">请输入0-999的数字</string>
+    <string name="tip_synValue">请输入0-65535的数字</string>
+
+    <string name="SettingSuccess">设置成功</string>
+    <string name="SettingFail">设置失败</string>
+</resources>

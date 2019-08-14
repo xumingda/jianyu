@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/ConnectDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:text="@string/menu_main_Connection" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:id="@+id/batteryTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="100%"
+            android:textColor="@color/black"
+            android:layout_toLeftOf="@+id/BatteryImg"
+            android:gravity="center_vertical"/>
+        <ImageView
+            android:layout_marginRight="@dimen/dp_10"
+            android:id="@+id/BatteryImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/battery100"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/refreshRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/SynState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="失步"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/ConnectStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:text="设备未连接 "/>
+
+            <ImageView
+                android:layout_marginTop="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluetooth_status"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/ConnectStatus"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/ChannelTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:text="38946"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/ChannelTv"
+                android:id="@+id/middle"
+                android:layout_centerHorizontal="true"
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <Button
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_normal"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:layout_toRightOf="@id/middle"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/btn_yuan"
+                android:layout_below="@id/ChannelTv"
+                android:text="远距离模式"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:padding="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/shape_normal"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/btn_near"
+                android:layout_below="@id/ChannelTv"
+                android:layout_toLeftOf="@id/middle"
+                android:text="近距离模式"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_below="@id/btn_yuan"
+                android:id="@+id/ll"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <com.lte.ui.widget.PhilText
+                    android:layout_below="@id/btn_yuan"
+                    android:id="@+id/FieldStrength"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="90dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="80dp"
+                android:layout_below="@id/ll"
+                android:id="@+id/SpeakImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/speaker_off"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/singleChart"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/cancel"
+                android:text="@string/strength_monitor"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/totalChart"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/save"
+                android:text="@string/direction_monitor"
+                android:textSize="13sp" />
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:id="@+id/chartArea"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@drawable/background"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="6"-->
+        <!--android:orientation="vertical" />-->
+        <com.github.mikephil.charting.charts.BarChart
+            android:visibility="gone"
+            android:id="@+id/barchat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            />
+
+    </LinearLayout>
+</LinearLayout>

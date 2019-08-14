@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTS1:"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<RadioGroup-->
+                    <!--android:id="@+id/rg_bts_enable_gsm"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="是否激活该小区:"-->
+                        <!--android:textColor="@color/black" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/rb_bts_enable_enable_gsm"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="是"-->
+                        <!--android:textColor="@color/black" />-->
+
+                    <!--<RadioButton-->
+                        <!--android:id="@+id/rb_bts_enable_not_enable_gsm"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:checked="true" />-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="否"-->
+                        <!--android:textColor="@color/black" />-->
+                <!--</RadioGroup>-->
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="频段:"
+            android:textColor="@color/black" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_gsm_bts1_band"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="MCC:"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_gsm_bts1_mcc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:digits="0123456789"
+            android:hint="请输入0~20(数字)"
+            android:inputType="number"
+            android:minHeight="60dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MNC:"
+                android:textColor="@color/black" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_gsm_bts1_mnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="频点:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_gsm_bts1_bcc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入0~20(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="LAC:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_gsm_bts1_lac"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入0~65535(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="网络优先级:"
+                android:textColor="@color/black" />
+            <EditText
+                android:id="@+id/et_gsm_bts1_cro"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入0~65535(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="重新捕获间隔时间:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_gsm_bts1_captime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="发射衰减:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_gsm_bts1_lowatt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入发射衰减(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="接收增益:"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_gsm_bts1_upatt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:digits="0123456789"
+                android:hint="请输入0~65535(数字)"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="配置模式:"
+                android:textColor="@color/black" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:layout_margin="@dimen/dp_4"
+                android:id="@+id/spinner_gsm_bts1_configmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作模式:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_margin="@dimen/dp_4"
+                android:id="@+id/spinner_gsm_bts1_workmode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="驻留模式"/>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="BTS2:"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="20sp" />-->
+
+            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                <!--&lt;!&ndash;<RadioGroup&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/rg_bts2_enable_gsm"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:text="是否激活该小区:"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColor="@color/black" />&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<RadioButton&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rb_bts2_enable_enable_gsm"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:text="是"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColor="@color/black" />&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<RadioButton&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:id="@+id/rb_bts2_enable_not_enable_gsm"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:checked="true" />&ndash;&gt;-->
+
+                    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:text="否"&ndash;&gt;-->
+                        <!--&lt;!&ndash;android:textColor="@color/black" />&ndash;&gt;-->
+                <!--&lt;!&ndash;</RadioGroup>&ndash;&gt;-->
+            <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--&gt;-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="频段:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                    <!--android:id="@+id/spinner_gsm_bts2_band"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="MCC:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_mcc"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入0~20(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="MNC:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                    <!--android:id="@+id/spinner_gsm_bts2_mnc"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="频点:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_bcc"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入0~20(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="LAC:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_lac"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入0~65535(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="CRO:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_cro"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入0~65535(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="重新捕获间隔时间:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_captime"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="发射衰减:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_lowatt"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入发射衰减(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:text="接收增益:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/et_gsm_bts2_upatt"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:digits="0123456789"-->
+                    <!--android:hint="请输入0~65535(数字)"-->
+                    <!--android:inputType="number"-->
+                    <!--android:minHeight="60dp"-->
+                    <!--android:text="0"-->
+                    <!--android:textColor="@color/black"-->
+                    <!--android:textSize="15sp" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="配置模式:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                    <!--android:id="@+id/spinner_gsm_bts2_configmode"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1" />-->
+            <!--</LinearLayout>-->
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="工作模式:"-->
+                    <!--android:textColor="@color/black" />-->
+
+                <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+                    <!--android:id="@+id/spinner_gsm_bts2_workmode"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1" />-->
+            <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+        <Button
+            android:id="@+id/btn_new_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_click_bg"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

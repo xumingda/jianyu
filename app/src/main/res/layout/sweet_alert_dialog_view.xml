@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:background="@drawable/welcome_bg_layer"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/abc_oval_shape_white"
+        android:orientation="vertical"
+        android:paddingTop="24dp">
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:text="提示"/>
+
+        <TextView
+
+            android:ellipsize="end"
+            android:id="@+id/tv_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            />
+
+        <ViewStub
+
+            android:id="@+id/view_stub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:background="@color/gray_alpha_66"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_one_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_common_lb_rb_sel"
+                android:gravity="center"
+                android:textColor="#0888ff"
+                android:textSize="18sp"
+                android:visibility="gone"
+                tools:text="Yes"/>
+
+            <LinearLayout
+                android:id="@+id/ll_two_btn_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dialog_left_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_common_lb_sel"
+                    android:gravity="center"
+                    android:textColor="#0888ff"
+                    android:textSize="18sp"
+                    tools:text="No"/>
+
+                <View
+                    android:id="@+id/dialog_line"
+                    android:layout_width="0.6dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_alpha_66"/>
+
+                <TextView
+                    android:id="@+id/dialog_right_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_common_rb_sel"
+                    android:gravity="center"
+                    android:textColor="#0888ff"
+                    android:textSize="18sp"
+                    tools:text="Yes"/>
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

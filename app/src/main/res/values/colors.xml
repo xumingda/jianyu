@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ff0079ff</color>-->
+    <!--<color name="colorPrimaryDark">#ff0079ff</color>-->
+    <color name="colorPrimary">#091945</color>
+    <color name="colorPrimaryDark">#091945</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_input_border">#E4E4E4</color>
+    <color name="color_common_dialog_bg">#333333</color>
+    <color name="white_alpha_f0">#f0ffffff</color>
+    <color name="gray_alpha_66">#66808080</color>
+    <color name="gray_alpha">#ddAAAAAA</color>
+    <color name="bluegrey600">#546e7a</color>
+    <color name="blue">#ff3380d8</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="fragment_bg">#fff3f3f3</color>
+    <color name="tabhost_bg">#ff7c7c7c</color>
+    <color name="devide_line">#ffafafaf</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff16b201</color>
+    <color name="bar_color">#ff6fabf0</color>
+    <color name="tab_unselect">#ff7c7c7c</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="title_bar_color">#fefefe</color>
+    <color name="tittle_text_color_normal">#666666</color>
+    <color name="gray_c8">#c8c8c8</color>
+    <color name="v6_deep_color">#333333</color>
+    <color name="gray_a9">#a9a9a9</color>
+    <color name="v6_white_color">#fefefe</color>
+    <color name="v6_item_pressed_color">#e6e7e8</color>
+    <color name="transparent">#00000000</color>
+    <color name="iting_v2_red_text">#ff2b66</color>
+    <color name="dialogbackground">#D1D0D5</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="v6_light_gray_color">#999999</color>
+    <color name="gray_d0">#d0d0d0</color>
+    <color name="pop_green">#303F9F</color>
+    <color name="v6_gray_color">#808080</color>
+
+    <color name="color_gray">#66666666</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_blue">#007dff</color>
+    <color name="color_yellow">#FFFF00</color>
+    <color name="color_pink">#FF00FF</color>
+</resources>

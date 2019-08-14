@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <!--<com.imusic.view.IMSimpleDraweeView-->
+        <!--android:id="@+id/bs_list_image"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--fresco:actualImageScaleType="centerCrop"-->
+        <!--fresco:fadeDuration="300"-->
+        <!--fresco:failureImageScaleType="centerInside"-->
+        <!--fresco:placeholderImage="@drawable/album_default_bg"-->
+        <!--fresco:placeholderImageScaleType="fitCenter"-->
+        <!--fresco:progressBarAutoRotateInterval="1000"-->
+        <!--fresco:progressBarImageScaleType="centerInside"-->
+        <!--fresco:retryImageScaleType="centerCrop"-->
+        <!--fresco:roundAsCircle="false" />-->
+
+    <TextView
+        android:id="@+id/bs_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/v6_deep_color"
+        android:textSize="12sp"
+        skin:enable="true" />
+</LinearLayout>

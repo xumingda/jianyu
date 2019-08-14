@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id"/>
+    <item name="view_tag" type="id"/>
+    <item name="position_tag" type="id"/>
+    <!-- NumberPicker begin -->
+    <item name="np__increment" type="id" />
+    <item name="np__decrement" type="id" />
+    <!-- NumberPicker end -->
+
+    <item name="tag_id" type="id" />
+    <item name="left_tag_id" type="id" />
+    
+    <item name="bs_more" type="id" />
+    <!-- header -->
+    <item name="bottom_sheet_title_image" type="id" />
+    <item name="bottom_sheet_title" type="id" />
+    <item name="bottom_sheet_subtitle" type="id" />
+    <item name="bottom_sheet_newSongForm" type="id" />
+    <item name="bottom_sheet_play_mode_image" type="id" />
+    <item name="bottom_sheet_clear_play_list" type="id" />
+
+    <!-- item -->
+    <item name="bs_list_image" type="id" />
+    <item name="bs_list_title" type="id" />
+    <item name="bs_list_priceflag" type="id" />
+    <item name="bs_list_delete" type="id" />
+    <item name="bs_list_hq" type="id" />
+    <item name="bs_list_singer" type="id" />
+    <item name="bs_list_playing_label" type="id" />
+    <item name="bs_list_fav" type="id" />
+    <item name="statusbar_view" type="id"/>
+    <item name="translucent_view" type="id"/>
+</resources>
